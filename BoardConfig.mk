@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6633,D6643,z3
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/z3/include
 
-BOARD_HARDWARE_CLASS += device/sony/z3/cmhw
+BOARD_HARDWARE_CLASS += device/sony/z3/mkhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
+TARGET_KERNEL_CONFIG := mokee_shinano_leo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25

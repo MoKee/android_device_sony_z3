@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_sony_z3",
+    "target_path": "vendor/sony/z3"
+  },
+  {
     "repository": "android_device_sony_shinano-common",
     "target_path": "device/sony/shinano-common"
   }
