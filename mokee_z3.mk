@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z3 device
 $(call inherit-product, device/sony/z3/z3.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MoKee stuff.
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_z3
+PRODUCT_NAME := mokee_z3
 PRODUCT_DEVICE := z3
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia Z3
